@@ -22,7 +22,7 @@ use \Psr\Http\Message\ResponseInterface as Response;
                 'license' => 'https://github.com/aalfiann/reSlim-skeleton/blob/master/license.md'
             ]
         ];
-        $body->write(json_encode($data));
+        $body->write(json_encode($data,JSON_PRETTY_PRINT));
         return $response
                 ->withStatus(200)
                 ->withHeader('Content-Type','application/json; charset=utf-8')
