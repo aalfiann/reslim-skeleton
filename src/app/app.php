@@ -2,13 +2,11 @@
 /**
  * reSlim is based on Slim Framework version 3 (http://slimframework.com)
  *
- * @link      https://github.com/aalfiann/reSlim
+ * @link      https://github.com/aalfiann/reSlim-skeleton
  * @copyright Copyright (c) 2016 M ABD AZIZ ALFIAN
- * @license   https://github.com/aalfiann/reSlim/blob/master/license.md (MIT License)
+ * @license   https://github.com/aalfiann/reSlim-skeleton/blob/master/license.md (MIT License)
  */
 
-// reSlim Version
-define('RESLIM_VERSION','1.14.0');
 
 // Load all class libraries
 require '../vendor/autoload.php';

@@ -1,7 +1,6 @@
 reSlim-skeleton
 =======
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/aalfiann/reSlim-skeleton)
-[![reSlim](https://img.shields.io/badge/stable-1.14.0-brightgreen.svg)](https://github.com/aalfiann/reSlim-skeleton)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/aalfiann/reSlim-skeleton/blob/master/license.md)
 
 This is a skeleton of api framework reSlim.  

@@ -9,8 +9,7 @@ use \Psr\Http\Message\ResponseInterface as Response;
         $data = [
             'status' => 'success',
             'code' => '200',
-            'welcome' => 'Hello World, here is the default index reSlim',
-            'concept' => 'reSlim is using authentication by token. So You have to register and login to get generated new token.',
+            'welcome' => 'Hello World, here is the default index reSlim-skeleton',
             'author' => [
                 'name' => 'M ABD AZIZ ALFIAN',
                 'email' => 'aalfiann@gmail.com',
@@ -18,15 +17,9 @@ use \Psr\Http\Message\ResponseInterface as Response;
                 'linkedin' => 'https://www.linkedin.com/in/azizalfian'
             ],
             'engine' => [
-                'name' => 'reSlim',
-                'version' => RESLIM_VERSION,
-                'github' => 'https://github.com/aalfiann/reSlim',
-                'license' => 'https://github.com/aalfiann/reSlim/blob/master/license.md',
-                'documentation' => 'Documentation is available on Github Wiki.'
-            ],
-            'extensions' => [
-                'module' => 'https://github.com/aalfiann/reSlim-modules',
-                'template' => 'https://github.com/aalfiann/reSlim-ui-boilerplate'
+                'name' => 'reSlim-skeleton',
+                'github' => 'https://github.com/aalfiann/reSlim-skeleton',
+                'license' => 'https://github.com/aalfiann/reSlim-skeleton/blob/master/license.md'
             ]
         ];
         $body->write(json_encode($data));
